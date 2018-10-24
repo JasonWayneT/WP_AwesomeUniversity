@@ -20,10 +20,9 @@
       </div>
 
       <div class="generic-content"><?php the_content(); ?></div>
-
       <?php 
         $today = date('Ymd');
-        $homepageEvents = new WP_Query(array(
+        $singleProgramEvents = new WP_Query(array(
           'posts_per_page' => 2,
           'post_type' => 'event',
           'meta_key' => 'event_date',
@@ -44,12 +43,12 @@
           )
         ));
 
-        if ($homepageEvents->have_posts()) {
+        if ($singleProgramEvents->have_posts()) {
           echo '<hr class="section-break">';
         echo '<h2 class="headline headline--medium">Upcoming ' . get_the_title() . ' Events</h2>';
 
-        while($homepageEvents->have_posts()) {
-          $homepageEvents->the_post(); ?>
+        while($singleProgramEvents->have_posts()) {
+          $singleProgramEvents->the_post(); ?>
           <div class="event-summary">
             <a class="event-summary__date t-center" href="#">
               <span class="event-summary__month"><?php

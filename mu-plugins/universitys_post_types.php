@@ -1,7 +1,4 @@
-<!-- Automatically Included Plugins  -->
-
 <?php  
-
 function university_post_types() {
     // Register Event Post Type
     register_post_type( 'event', array(
@@ -36,13 +33,4 @@ function university_post_types() {
         )
     )  );
 }
-
-
-
-// Add Custom Post type
-add_action('init', 'university_post_types')
-
-?>
-
-
-
+add_action('init', 'university_post_types');
