@@ -1,0 +1,72 @@
+Oct 26 2018 19:54:03
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\@babel\\\\preset-env\\\\node_modules\\\\@babel\\\\plugin-proposal-unicode-property-regex\\\\test\\\\fixtures\\\\with-unicode-flag\\\\script-extensions\\\\input.js","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 19:54:03
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\@babel\\\\preset-env\\\\node_modules\\\\@babel\\\\plugin-proposal-unicode-property-regex\\\\test\\\\fixtures\\\\with-unicode-flag\\\\script-extensions\\\\output.js","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 19:54:03
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\@babel\\\\preset-env\\\\node_modules\\\\@babel\\\\plugin-proposal-unicode-property-regex\\\\test\\\\fixtures\\\\with-unicode-flag\\\\unicode-10\\\\input.js","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 19:54:03
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\@babel\\\\preset-env\\\\node_modules\\\\@babel\\\\plugin-proposal-unicode-property-regex\\\\test\\\\fixtures\\\\with-unicode-flag\\\\unicode-10\\\\output.js","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 19:54:03
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\@babel\\\\preset-env\\\\node_modules\\\\@babel\\\\plugin-proposal-unicode-property-regex\\\\test\\\\fixtures\\\\without-unicode-flag\\\\script-extensions\\\\input.js","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 19:54:03
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\@babel\\\\preset-env\\\\node_modules\\\\@babel\\\\plugin-proposal-unicode-property-regex\\\\test\\\\fixtures\\\\without-unicode-flag\\\\script-extensions\\\\output.js","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 19:54:03
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\@babel\\\\preset-env\\\\node_modules\\\\@babel\\\\plugin-proposal-unicode-property-regex\\\\test\\\\fixtures\\\\without-unicode-flag\\\\simple\\\\input.js","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 19:54:03
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\@babel\\\\preset-env\\\\node_modules\\\\@babel\\\\plugin-proposal-unicode-property-regex\\\\test\\\\fixtures\\\\without-unicode-flag\\\\simple\\\\output.js","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 19:54:03
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\@babel\\\\preset-env\\\\node_modules\\\\@babel\\\\plugin-proposal-unicode-property-regex\\\\test\\\\fixtures\\\\without-unicode-flag\\\\unicode-10\\\\input.js","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 19:54:03
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\@babel\\\\preset-env\\\\node_modules\\\\@babel\\\\plugin-proposal-unicode-property-regex\\\\test\\\\fixtures\\\\without-unicode-flag\\\\unicode-10\\\\output.js","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 20:07:11
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\svg-pathdata\\\\.rpt2_cache\\\\9a5f452c287d80911476f25c9679b0f96b5b8725\\\\semanticDiagnostics\\\\cache\\\\05a94e263ccadb01d69bb3bb1ebcfbb13093a52a","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 20:07:12
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\svg-pathdata\\\\.rpt2_cache\\\\9a5f452c287d80911476f25c9679b0f96b5b8725\\\\semanticDiagnostics\\\\cache\\\\71fba83dd31f5ac503957a866d5c860df094860f","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 20:07:12
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\svg-pathdata\\\\.rpt2_cache\\\\9a5f452c287d80911476f25c9679b0f96b5b8725\\\\semanticDiagnostics\\\\cache\\\\80709438068f119d33caedefe172a41634c3bdda","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 20:07:12
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\svg-pathdata\\\\.rpt2_cache\\\\9a5f452c287d80911476f25c9679b0f96b5b8725\\\\semanticDiagnostics\\\\cache\\\\92849dffd7fcd919c1cd6fec760ea01aaf097c83","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 20:07:12
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\svg-pathdata\\\\.rpt2_cache\\\\9a5f452c287d80911476f25c9679b0f96b5b8725\\\\semanticDiagnostics\\\\cache\\\\a828458f3e3b33d7b99d97947300aac4ebadc836","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 20:07:12
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\svg-pathdata\\\\.rpt2_cache\\\\9a5f452c287d80911476f25c9679b0f96b5b8725\\\\semanticDiagnostics\\\\cache\\\\eadbe43b9e59ebc1fae6bc52b7108e8302533d8d","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 20:07:12
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\svg-pathdata\\\\.rpt2_cache\\\\9a5f452c287d80911476f25c9679b0f96b5b8725\\\\semanticDiagnostics\\\\cache\\\\eb28bc894f23979f046741f01ac2bd8b8a6043a7","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 20:07:12
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\svg-pathdata\\\\.rpt2_cache\\\\9a5f452c287d80911476f25c9679b0f96b5b8725\\\\syntacticDiagnostics\\\\cache\\\\05a94e263ccadb01d69bb3bb1ebcfbb13093a52a","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 20:07:12
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\svg-pathdata\\\\.rpt2_cache\\\\9a5f452c287d80911476f25c9679b0f96b5b8725\\\\syntacticDiagnostics\\\\cache\\\\71fba83dd31f5ac503957a866d5c860df094860f","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 20:07:12
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\svg-pathdata\\\\.rpt2_cache\\\\9a5f452c287d80911476f25c9679b0f96b5b8725\\\\syntacticDiagnostics\\\\cache\\\\80709438068f119d33caedefe172a41634c3bdda","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 20:07:12
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\svg-pathdata\\\\.rpt2_cache\\\\9a5f452c287d80911476f25c9679b0f96b5b8725\\\\syntacticDiagnostics\\\\cache\\\\92849dffd7fcd919c1cd6fec760ea01aaf097c83","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 20:07:12
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\svg-pathdata\\\\.rpt2_cache\\\\9a5f452c287d80911476f25c9679b0f96b5b8725\\\\syntacticDiagnostics\\\\cache\\\\a828458f3e3b33d7b99d97947300aac4ebadc836","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 20:07:12
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\svg-pathdata\\\\.rpt2_cache\\\\9a5f452c287d80911476f25c9679b0f96b5b8725\\\\syntacticDiagnostics\\\\cache\\\\eadbe43b9e59ebc1fae6bc52b7108e8302533d8d","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+
+Oct 26 2018 20:07:12
+{"Number":2,"Message":"stat(): stat failed for C:\\\\Users\\\\Jason\\\\Google Drive\\\\WP_Sites\\\\Udemycourse1\\\\localwp.dev\\\\wp-content\\\\themes\\\\fictional-university\\\\node_modules\\\\svg-pathdata\\\\.rpt2_cache\\\\9a5f452c287d80911476f25c9679b0f96b5b8725\\\\syntacticDiagnostics\\\\cache\\\\eb28bc894f23979f046741f01ac2bd8b8a6043a7","File":"C:\\Users\\Jason\\Google Drive\\WP_Sites\\Udemycourse1\\localwp.dev\\wp-content\\plugins\\all-in-one-wp-migration\\lib\\vendor\\servmask\\archiver\\class-ai1wm-compressor.php","Line":167}
+

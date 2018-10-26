@@ -32,5 +32,34 @@ function university_post_types() {
             'singlular_name'=> 'Program'
         )
     )  );
+    register_post_type( 'professor', array(     
+        'public'=> true,
+        'menu_icon'=>'dashicons-welcome-learn-more',
+        'supports'=>array('title','editor', 'thumbnail'),
+        'labels'=>array(
+            'name'=>'Professors',
+            'add_new_item' => 'Add New Professor',
+            'edit_item'=> 'Edit Professor',
+            'all_items'=> 'All Professors',
+            'singlular_name'=> 'Professor'
+        )
+    )  );
+
+    register_post_type( 'campus', array(
+        'has_archive'=> true,      
+        'public'=> true,
+        'menu_icon'=>'dashicons-location-alt',
+        'supports'=>array('title','editor'),
+        'rewrite'=>array(
+            'slug'=>'campuses'),
+        'labels'=>array(
+            'name'=>'Campuses',
+            'add_new_item' => 'Add New Campus',
+            'edit_item'=> 'Edit Campus',
+            'all_items'=> 'All Campuses',
+            'singlular_name'=> 'Campus'
+        )
+    )  );
+   
 }
 add_action('init', 'university_post_types');
