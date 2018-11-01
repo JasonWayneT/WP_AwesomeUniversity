@@ -60,7 +60,6 @@ class Search{
         Promise.all([postsRequest, pagesRequest])
              .then(combinedResponse => {
                  let fullResponse= combinedResponse[0].concat(combinedResponse[1])
-                 console.log(fullResponse);
                  this.resultsDiv.innerHTML=`
                  <h2 class="search-overlay__section-title">General Information</h2>
                  ${fullResponse.length ? '<ul class="link-list min-list">' : '<p>No general information matches that search.</p>'}
