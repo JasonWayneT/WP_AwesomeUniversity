@@ -1,4 +1,4 @@
-exports.themeLocation = 'C:\Users\Jason\Google Drive\WP_Sites\Udemycourse1\localwp.dev\wp-content\themes\fictional-university';
+exports.themeLocation = '../fictional-university/';
 exports.urlToPreview = 'http://localhost/Udemycourse1/localwp.dev/';
 
 // If you're using Local by Flywheel you will
