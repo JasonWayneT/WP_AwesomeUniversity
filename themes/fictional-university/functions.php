@@ -1,4 +1,17 @@
-<?php
+<?php 
+
+require get_theme_file_path('/inc/search-route.php');
+
+function universityCustomRest(){
+  register_rest_field('post', 'authorName', array(
+    'get_callback' => function(){
+      return get_the_author();
+    }
+  ));
+}
+
+add_action('rest_api_init', 'universityCustomRest');
+
 function pageBanner($args = NULL){
   if(!$args['title']){
    $args['title'] = get_the_title();

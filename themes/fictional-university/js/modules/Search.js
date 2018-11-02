@@ -12,7 +12,6 @@ class Search{
         this.isSpinnerVisible = false;
         this.typingTimer;
         this.previousValue;
-
         this.events();
         
     }
@@ -48,40 +47,77 @@ class Search{
     }
 
     getResults(){
-        const postsRequest = fetch(universityData.root_url + '/wp-json/wp/v2/posts?search=' + this.searchField.value )
-            .then(function(response){
-                    return response.json();
-                });
-        const pagesRequest = fetch(universityData.root_url + '/wp-json/wp/v2/pages?search=' + this.searchField.value )
-        .then(function(response2){
-                return response2.json();
-            });
-        let combinedResponse = [];
-        Promise.all([postsRequest, pagesRequest])
-             .then(combinedResponse => {
-                 let fullResponse= combinedResponse[0].concat(combinedResponse[1])
-                 this.resultsDiv.innerHTML=`
-                 <h2 class="search-overlay__section-title">General Information</h2>
-                 ${fullResponse.length ? '<ul class="link-list min-list">' : '<p>No general information matches that search.</p>'}
-                   ${fullResponse.map(item => `<li><a href="${item.link}">${item.title.rendered}</a></li>`).join('')}
-                 ${fullResponse.length ? '</ul>' : ''}
-               `;
-               this.isSpinnerVisible = false;
-             });// end promis.all .then
-   
-          } // end get results
-       
-        
+         fetch(universityData.root_url + '/wp-json/university/v1/search?term=' + this.searchField.value )
+        .then((response) => { return response.json();})
+        .then((mainQuery)=> {
+            console.log(mainQuery);
+            
+            this.resultsDiv.innerHTML=`
+            <div class='row'>
+                <div class='one-third'>
+                     <h2 class="search-overlay__section-title">General Information</h2>
+                        ${mainQuery.generalInfo.length ? '<ul class="link-list min-list">' : '<p>No general information matches that search.</p>'}
+                        ${mainQuery.generalInfo.map(item => `<li><a href="${item.permalink}">${item.title}</a> ${item.type == 'post' ? `by ${item.author}` : ''} </li>`).join('')}
+                        ${mainQuery.generalInfo.length ? '</ul>' : ''}
+                </div>
+                <div class='one-third'>
+                     <h2 class="search-overlay__section-title">Programs </h2>
+                        ${mainQuery.programs.length ? '<ul class="link-list min-list">' : `<p>No programs match that search. <a href="${universityData.root_url}/programs"> View all programs.</a></p>`}
+                        ${mainQuery.programs.map(item => `<li><a href="${item.permalink}">${item.title}</a> </li>`).join('')}
+                        ${mainQuery.programs.length ? '</ul>' : ''}
+                     <h2 class="search-overlay__section-title">Professors </h2>
+                        ${mainQuery.professors.length ? '<ul class="professor-cards">' : '<p>No professors matches that search.</p>'}
+                        ${mainQuery.professors.map(item => `
+                                            <li class="professor-card__list-item">
+                                <a class="professor-card" href="${item.permalink}">
+                                <img class="professor-card__image" src="${item.thumbnail}">
+                                <span class="professor-card__name">${item.title}</span>
+                                </a>
+                            </li>
+                        `).join('')}
+                        ${mainQuery.professors.length ? '</ul>' : ''}
+                </div>
+                <div class='one-third'>
+                    <h2 class="search-overlay__section-title">Campuses</h2>
+                        ${mainQuery.campuses.length ? '<ul class="link-list min-list">' : `<p>No campuses matches that search. <a href="${universityData.root_url}/campuses"> View all campuses.</a></p></p>`}
+                        ${mainQuery.campuses.map(item => `<li><a href="${item.permalink}">${item.title}</a> </li>`).join('')}
+                        ${mainQuery.campuses.length ? '</ul>' : ''}
 
-       
-    
+                    <h2 class="search-overlay__section-title">Events</h2>
+                        ${mainQuery.events.length ? '' : `<p>No events match that search. <a href="${universityData.root_url}/events" View All Events</a> </p>`}
+                        ${mainQuery.events.map(item => `
+                            <div class="event-summary">
+                                <a class="event-summary__date event-summary__date--beige ?>  t-center" href="${item.permalink}">
+                                    <span class="event-summary__month">${item.month}</span>
+                                    <span class="event-summary__day">${item.day}</span>  
+                                </a>
+                                <div class="event-summary__content">
+                                    <h5 class="event-summary__title headline headline--tiny"><a href="${item.permalink}">${item.title} </a></h5>
+                                    <p>${item.excerpt} <a href="${item.permalink}" class="nu gray">Read more</a></p>
+                                </div>
+                            </div>
 
-    openOverlay(){
+                        
+                        `).join('')}
+                        
+                </div>
+            </div>
+            `
+        } )
+        .catch(()=>{this.resultsDiv.innerHTML= '<p> Sorry there was an error. Please try again.</p>'});
+
+        this.isSpinnerVisible = false;
+    } 
+
+
+    openOverlay(e){
         this.searchOverlay.classList.add('search-overlay--active');
         document.body.classList.add('body-no-scroll');
         this.searchField.value = '';
         setTimeout(()=> this.searchField.focus(),300)
         this.isOverlayOpen = true;
+        // prevents behavior of <a>
+        e.preventDefault();
     }
 
     closeOverlay(){

@@ -21,7 +21,7 @@ function university_post_types() {
         'has_archive'=> true,      
         'public'=> true,
         'menu_icon'=>'dashicons-awards',
-        'supports'=>array('title','editor'),
+        'supports'=>array('title'),
         'rewrite'=>array(
             'slug'=>'programs'),
         'labels'=>array(
@@ -35,6 +35,7 @@ function university_post_types() {
     register_post_type( 'professor', array(     
         'public'=> true,
         'menu_icon'=>'dashicons-welcome-learn-more',
+        'show_in_rest'=> true,
         'supports'=>array('title','editor', 'thumbnail'),
         'labels'=>array(
             'name'=>'Professors',
