@@ -2,6 +2,9 @@
 function university_post_types() {
     // Register Event Post Type
     register_post_type( 'event', array(
+        // Next two creates permissions selection in User Roles and Permissions
+        'capability_type'=>'event',
+        'map_meta_cap'=>true,
         'has_archive'=> true,       
         'public'=> true,
         'menu_icon'=>'dashicons-calendar-alt',
@@ -47,6 +50,8 @@ function university_post_types() {
     )  );
 
     register_post_type( 'campus', array(
+        'capability_type' => 'campus',
+        'map_meta_cap'=> true,
         'has_archive'=> true,      
         'public'=> true,
         'menu_icon'=>'dashicons-location-alt',
@@ -59,6 +64,25 @@ function university_post_types() {
             'edit_item'=> 'Edit Campus',
             'all_items'=> 'All Campuses',
             'singlular_name'=> 'Campus'
+        )
+    )  );
+    register_post_type( 'note', array(    
+        'capability_type' => 'note', 
+        // Enforce permissions
+        'map_meta_cap' => true,
+        // makes notes private
+        'public'=> false,
+        // shows in admin area
+        'show_ui'=>true,
+        'menu_icon'=>'dashicons-welcome-write-blog',
+        'show_in_rest'=> true,
+        'supports'=>array('title','editor', 'thumbnail'),
+        'labels'=>array(
+            'name'=>'Notes',
+            'add_new_item' => 'Add New Note',
+            'edit_item'=> 'Edit Note',
+            'all_items'=> 'All Notes',
+            'singlular_name'=> 'Note'
         )
     )  );
    

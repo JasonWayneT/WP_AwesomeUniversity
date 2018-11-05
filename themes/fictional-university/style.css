@@ -1077,7 +1077,7 @@
   }
   
   body.login {
-	background-color: #FAF0CA;
+	background-color: rgb(243, 243, 243);
   }
   
   .login h1 a {
@@ -2368,3 +2368,10 @@
 		display: none;
 	}
 
+	.login #nav{
+		text-align: center;
+	}
+
+.login #backtoblog{
+	text-align:center;
+}
